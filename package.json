@@ -1,0 +1,21 @@
+{
+  "name": "socket-io-test",
+  "version": "1.0.0",
+  "description": "Socket.io test with express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "socket",
+    "io",
+    "node",
+    "express"
+  ],
+  "author": "Arunabh Saikia",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket-io": "^1.0.0"
+  }
+}
