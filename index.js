@@ -15,6 +15,11 @@ app.get('/', (req, res) => res.sendFile('index.html'))
 io.on('connection', (socket) => {
     console.log('Client connected')
 
+    socket.on('join', (data) => {
+        console.log(data)
+        socket.emit('messages', 'Greetings!')
+    })
+
     socket.on('disconnect', () => console.log('Client disconnected'))
 })
 
